@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+	<!--
+	Laboppgave1
+	Navn: Ingvild Larsen Røkke
+	samarbeidet med:Ingen for min egen opgave, men hjalp Maiken litt med hennes. 
+	Tid: tre-fire dager
+-->
+
+	<link href="proglangs.css" rel="stylesheet" type="text/css">
+</head>
+
+<html>
+<body>
+	<b><h1>Navn p&aring; ulike programmeringsspr&aring;k:</h1></b>
+
+	<!--oppgave 0: programmeringsspråk med forskjellige farger-->
+	
+	<ul class="no-list-style-type">
+	<b><li><span class ="a1">Actionscript</li>
+	<li><span class ="a1">AppleScript</li>
+	<li><span class ="a1">Asp</li>
+	<li><span class ="a2">BASIC</li>
+	<li><span class ="a3">C</li>
+	<li><span class ="a3">C++</li>
+	<li><span class ="a3">Clojure</li>
+	<li><span class ="a3">COBOL</li>
+	<li><span class ="a3">Coldfusion</li>
+	<li><span class ="a4">Erlang</li>
+	<li><span class ="a5">Fortran</li>
+	<li><span class ="a6">Groovy</li>
+	<li><span class ="a7">Haskell</li>
+	<li><span class ="a8">Java</li>
+	<li><span class ="a8">JavaScript</li>
+	<li><span class ="a9">Lisp</li>
+	<li><span class ="a10">Perl</li>
+	<li><span class ="a10">PHP</li>
+	<li><span class ="a10">Python</li>
+	<li><span class ="a11">Ruby</li>
+	<li><span class ="a12">Scala</li>
+	<li><span class ="a12">Scheme</li>
+	</ul></b>
+	<!-- oppgave 1 & 2: Dropdownliste og dropdown med javascript-->
+	<form>
+		<label for="proglangs"><span class ="a12"><b>Velg:</b></label>
+		<select name="select-pl" id="proglangs" onChange="printToOutputBox(this)">
+			<option value="Actionscript">ActionScript</option>
+			<option value="AppleScript">AppleScript</option>
+			<option value="Asp">Asp</option>
+			<option value="BASIC">BASIC</option>
+			<option value="C">C</option>
+			<option value="Cplusspluss">C++</option>
+			<option value="Clojure">Clojure</option>
+			<option value="COBOL">COBOL</option>
+			<option value="Coldfusion">Coldfusion</option>
+			<option value="Erlang">Erlang</option>
+			<option value="Fortran">Fortran</option>
+			<option value="Groovy">Groovy</option>
+			<option value="Haskell">Haskell</option>
+			<option value="Java">Java</option>
+			<option value="JavaScript">JavaScript</option>
+			<option value="Lisp">Lisp</option>
+			<option value="Perl">Perl</option>
+			<option value="PHP">PHP</option>
+			<option value="Python">Python</option>
+			<option value="Ruby">Ruby</option>
+			<option value="Scala">Scala</option>
+			<option value="Scheme">Scheme</option>
+			
+		</select>
+	</form>
+<br />
+<span id="outputbox">Velg ett programmeringsspr&aring;k!</span>
+	<script src="proglangs.js"></script>
+</body>
+</html>
