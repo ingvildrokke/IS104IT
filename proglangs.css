@@ -1,18 +1,23 @@
+/*viser hvordan selve siden vil se ut*/
 body
 {
   Background-color:#fff;
   text-align:center;
 }
+/*utforming av overskrifter*/
+
 h1
 {
   color:#912CEE;
   Font-family:Georgia,Helvetica,Lucida Sans;
   
   }
+  /*fjerner bullets fra en uordnet liste*/
   ul
   {
   list-style-type: none;
   }
+  /*klasser som kan brukes flere ganger*/
   .a1
   {
     color:#CC3299;
