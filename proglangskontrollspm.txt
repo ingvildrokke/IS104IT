@@ -1,0 +1,29 @@
+Kontrollspørsmål:
+
+0) Javascript er et programmeringsspråk som kan skrives inn i ett HtML-dokument og skaper dynamikk til en eller flere web-sider slik at om man trykker på f.eks. en knapp så skjer det noe, eksempel en tekst kommer opp etc. 
+
+ref: 0
+
+1) Forskjellen på id og class er at klasser kan man benytte flere ganger mens id kan bare benyttes én gang. 
+
+ref:1
+
+2) I deloppgave 0 har jeg presentert en liste over ulike programmeringsspråk hvor jeg har benyttet ulik farge ut i fra alfabetisk rekkefølge, dette kan forsåvidt være en grei måte å få oversikt over de ulike språkene fordi de er sortert alfabetisk i en liste og har ulik farge. På den andre siden så kan også denne listen være veldig forstyrrende, om vi ser for oss at listen hadde vært mye lengre så hadde det nok fort gått i surr, og de ulike fargene kan være et forstyrrende element som igjen vil ta fokuset bort fra det som man faktisk vil få frem med denne listen, derfor mener jeg at listen i deloppgave 0 ikke er fullt så funksjonell. 
+
+Dersom vi ser på delopggave 1 så vil jeg si at en rullegardinliste er mye bedre designmessig og i tilleg en bedre måte å finne fram i fordi du kan velge ett og ett språk, dessuten blir ikke brukeren forstyrret av de ulike fargene.
+
+3) Wikipedia har benyttet HTML-teknikken som gjør at de blir sortert i en uordnet liste såkalt <ul> og <li>, og de har sortert språkene alfabetisk og brukt bare én farge. I og for seg så synes jeg at det er en relativt brukbar måte å ordne språkene på, men samtidig ser jeg at med så mange forskjellige elementer i listen vil det bli for uoversiktlig for brukeren. 
+
+ref:2
+
+4) forskjellen mellom div og span er at man med et div element kan man lage avsnitt, mens med ett span element "skjer det ikke noe" teksten kommer på samme linje. 
+
+ref: 3
+5) skjønner ikke javascript helt enda, men vil tro at det vil bli litt kluss når man har mange listeelementer.
+
+
+referanser:
+0:http://w3schools.com/js/js_intro.asp sist lastet opp: 10.09.2013 kl.10.25
+1:http://css-tricks.com/the-difference-between-id-and-class/ sist lastet opp: 10.09.2013 kl.10.28
+2:http://en.wikipedia.org/wiki/List_of_programming_languages sist lastet opp: 10.09.2013 kl.10.34
+3:http://www.2tp.no/webdesign/html/html_07_tekstjusteringer.htm sist lastet opp: 9.09.2013 kl. 20.05
