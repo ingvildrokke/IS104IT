@@ -1,0 +1,62 @@
+/* margin+background-color: flytter innhold opp eller ned på siden,
+
+ref:http://www.nerdie.me/design/webdesign/blogg-no/html-og-css/flytte-sidemenyen-opp-ved-headeren,
+sist lastet opp: 16.09.2013 kl. 1635 */
+/*Body er hvordan hele siden ser ut, som bakgrunnsfarge og tekst osv. */
+body {
+
+margin-top: 40px;
+background-color: transparent;
+ padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: white;
+    background-color: #992667 }
+  
+  /* listestrukturen på menyen */
+  
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+    
+    /* tekststiler og utforming av overskrifter/tekst */
+    
+  h1 {
+    font-family: Georgia, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+h2 {
+    Color:#fff;
+    font-family: Georgia, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+          
+/* Hvordan linkene vil se ut, med bakgrunn, etc. */
+ 
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid #E667AF }
+    
+    /* Utforming av linker i meny, 
+    A:link = farge før den er trykket på, a: visited = farge etter den er trykket på. */
+  
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: #E6399B }
+
+/* lager en understrek */
+underline {
+margin-top: 2em;
+    padding-top: 2em;
+    border-top: solid #fff;
+    
+    
+

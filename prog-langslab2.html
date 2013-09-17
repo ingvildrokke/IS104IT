@@ -1,0 +1,69 @@
+<!Doctype html>
+<!-- 
+Lab2
+Navn: Ingvild Larsen Røkke.
+Samarbeidet med: Meg selv. 
+Tidsbruk: to dager.
+-->
+<html>
+<head>
+<!-- Gi oppgaven din en tittel: -->
+<title>Proglangs -Lab2: </title>
+</head>
+<!-- Her kan du koble ett Html-dokument med et CSS-Stilark. -->
+
+<link href="proglangslab2.css" rel="stylesheet" type="text/css">
+
+<body>
+<!-- Meny-->
+<ul class= "navbar">
+<li><a href="">Hjem</a>
+<li><a href="">Kronologisk</a>
+<li><a href="">Hierarkisk</a>
+<li><a href="">Alfabetisk</a>
+</ul>
+<!-- nedtrekksliste -->
+<form>
+		<label for="proglangs"><b>Velg:</b></label>
+		<select name="select-pl" id="proglangs" onChange="printToOutputBox(this)">
+			<option value="Actionscript">ActionScript</option>
+			<option value="AppleScript">AppleScript</option>
+			<option value="Asp">Asp</option>
+			<option value="BASIC">BASIC</option>
+			<option value="C">C</option>
+			<option value="Cplusspluss">C++</option>
+			<option value="Clojure">Clojure</option>
+			<option value="COBOL">COBOL</option>
+			<option value="Coldfusion">Coldfusion</option>
+			<option value="Erlang">Erlang</option>
+			<option value="Fortran">Fortran</option>
+			<option value="Groovy">Groovy</option>
+			<option value="Haskell">Haskell</option>
+			<option value="Java">Java</option>
+			<option value="JavaScript">JavaScript</option>
+			<option value="Lisp">Lisp</option>
+			<option value="Perl">Perl</option>
+			<option value="PHP">PHP</option>
+			<option value="Python">Python</option>
+			<option value="Ruby">Ruby</option>
+			<option value="Scala">Scala</option>
+			<option value="Scheme">Scheme</option>
+
+		</select>
+	</form>
+<br />
+<br>
+<!-- Tekst som kommer opp før man har valgt noe fra nedtrekkslisten -->
+<underline><span id="outputbox">Velg ett programmeringsspr&aring;k!</span></underline><br>
+	<!-- koble til en javaScript-fil her -->
+	<script src="proglangslab2.js"></script>
+<!--Hovedinnhold -->
+<box><h1>En side om Programmeringsspr&aring;k!</h1>
+<h4>Siden er under konstruksjon, derfor vil ikke alle linker fungere enda!</h4></div>
+
+<p>Velkommen til siden om Programmeringsspr&aring;k,
+<p> Her vil det etterhvert komme en del artig informasjon om ulike programmeringsspr&aring;k
+
+<p> V&aelig;r t&aring;lmodig!</box>
+</body>
+</html>
