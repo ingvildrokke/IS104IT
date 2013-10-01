@@ -4,3 +4,7 @@ function printToOutputBox(selectobj){
  e_outputbox.innerHTML = "Du har valgt programmeringsspråket: " + e_proglangs.options[selectobj.selectedIndex].text;
 }
 
+function myFunction()
+{
+alert("Denne siden er under konstruksjon\n kom tilbake senere :)");
+}
