@@ -21,7 +21,7 @@
 			$(".content-container").scrollTo($("#content-for-"+elementClick), 800);
 			
 			//Endre bakgrunnsfarge
-			$(".content-container div").css( {'background-color' : '#fff'});
+			$(".content-container div").css( {'background-color' : '#ffffff'});
 			$(".content-container #content-for-"+elementClick).css({'background-color' :'#d2e2fc'});
 			
 			//Når "Tilbake til toppen" blir klikket på må 'A' markeres og innholdet må rulles til toppen
@@ -35,7 +35,7 @@
 				//Rulle til et element, "A"i dette tilfelle
 				$(".content-container").scrollTo($("#content-for-a"),800);
 				//Sette bakgrunnsfargen til hvit til alle div og til lyseblått for den valgte div-en (a i dette tilfellet
-					$("content-container div").css( {'background-color' :'#fff'});
+					$("content-container div").css( {'background-color' :'#ffffff'});
 					$(".content-container #content-for-a").css({'background-color' : '#d2e2fc'});
 					
 		});
@@ -50,6 +50,8 @@
 				<li id="b">B</li>
 				<li id="c">C</li>
 				<li id="d">D</li>
+				<li id="e">E</li>
+				<li id="f">F</li>
 				<!--Flere bokstaver kan legges til her-->
 			</ul>
 		</div><!--lukker alfabetbeholderen-->
@@ -76,6 +78,7 @@
 							<dt>BASIC</dt>
 							<dd>blabla</dd>
 						</dl>
+						<p class="return-to-top">Tilbake til toppen</p>
 					</div>
 						<!--innhold for C-->
 						<div id="content-for-C">
@@ -89,11 +92,13 @@
 								<dt>Coldfusion</dt>
 								<dd>Blabla</dd>
 							</dl>
+							<p class="return-to-top">Tilbake til toppen</p>
 						</div>
 					
 					<!--D--> 
 					<div id="content-for-D">
 						<!--innhold for D-->
+					<p class="return-to-top">Tilbake til toppen</p>
 					</div>
 					
 					<!-- E -->
@@ -101,13 +106,16 @@
 						<dl>
 							<dt>Erlang</dt>
 							<dd>blabla</dd>
-							
+						</dl>
+						<p class="return-to-top">Tilbake til toppen</p>
+					</div>
 							<!-- F -->
 							<div id="content-for-E">
 								<dl>
 									<dt>Fortran</dt>
 									<dd>Blabla</dd>
 									<dl>
+										<p class="return-to-top">Tilbake til toppen</p>
 									</div>
 				</div><!-- Lukker innholdsbeholderen-->
 									</div> <!--Lukker body-container-->
