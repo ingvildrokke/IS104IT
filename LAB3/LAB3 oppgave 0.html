@@ -22,7 +22,11 @@
 
 	    $(document.body).on('keydown', function(e) {
 
-		
+	var right ="Du har trykket på den Høyre piltasten";
+	var left ="Du har trykket på den Venstre piltasten";
+	var up ="Du har trykket på opp piltasten";
+	var down ="Du har trykket på ned piltasten";
+	
 
 		// Sorterer ut de tastetrykkene man ønsker å gi en respons på
 
@@ -36,7 +40,8 @@
 
 				// Her og i andre case skal koden for å skrive til innerHTML skrives (deloppgave 0)
 
-				console.log( 'venstre pil tast trykket!' );
+				console.log( 'left' );
+				document.getElementById("keypressed").innerHTML=left;
 
 				break;
 
@@ -46,13 +51,29 @@
 
 			case 39:
 
-				console.log( 'høyre pil tast trykket!' );
+				console.log( 'right' );
+				document.getElementById("keypressed").innerHTML=right;
 
 				break;
 
 				
 
-			// Her skal koden for å behandle andre tastetrykk skrives (deloppgave 0)
+			// Her skal koden for å behandle andre tastetrykk skrives (deloppgave 0) oppgave a)
+			
+		//tastekode for "opp pil"
+		case 38:
+			console.log('"opp" pil tast trykket');
+			document.getElementById("keypressed").innerHTML=up;
+			break;
+			
+			//tastekode for "ned" pil
+			case 40:
+				console.log('"opp" pil tast trykket');
+				document.getElementById("keypressed").innerHTML=down;
+				break;
+
+
+
 
 		}
 
@@ -87,7 +108,7 @@
 	<p>Man har Console også i andre nettlesere. Bruker du en annen nettleser søk på "JavaScript console" for din nettleser for å finne ut hvordan du kan bruke det.</p>
 
 	<!-- Oppgaveløsning skal implementeres her -->
-
+<p id="keypressed"></p>;
 </body>
 
 </html>
