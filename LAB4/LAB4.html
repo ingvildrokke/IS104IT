@@ -13,8 +13,8 @@
 	$(function() {
 		//Markere lenken og rulle til det selekterte elementet i DOM
 		$(".firstUL li") .each(function(){
-			$(this ) .click(function()// Fange hendelsen når brykeren klikker på en av bokstavene
-			$(this) .addclass("selected"); // Legg til "selected" til det elementet som brukeren klikket på
+			$(this).click(function()// Fange hendelsen når brykeren klikker på en av bokstavene
+			$(this).addclass("selected"); // Legg til "selected" til det elementet som brukeren klikket på
 			elementClick = $( this ).attr("id"); //Få tak i den tilsvarende 'id'for eks. a,b,c,d osv.
 			
 			// Rulle til det selekterte DOM-elementet content for -X,X -selektert bokstav
@@ -35,8 +35,8 @@
 				//Rulle til et element, "A"i dette tilfelle
 				$(".content-container").scrollTo($("#content-for-a"),800);
 				//Sette bakgrunnsfargen til hvit til alle div og til lyseblått for den valgte div-en (a i dette tilfellet
-					$("content-container div").css( {'background-color' :'#ffffff'});
-					$(".content-container #content-for-a").css({'background-color' : '#d2e2fc'});
+					$("content-container div").css({'background-color' :'#ffffff'});
+					$(".content-container #content-for-a").css({'background-color':'#d2e2fc'});
 					
 		});
 	});
