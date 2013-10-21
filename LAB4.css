@@ -39,25 +39,23 @@ body{
 }
 /*Egenskapene til den ikke-ordnede listen defineres her*/
 .firstUL{
-	padding:0px 0px 0px 10px; /*Litt utfylling mot venstre og 0 mot toppen*/
+	padding:0px 0px 0px 0px;
 	margin:0px;
 	background-color:#3285ef;
 }
 .firstUL li{
-	background:transparent url("images/link_sprite_img.jpg") no-repeat scroll 0 0;
+	background:transparent url("https://fronter.com/uia/links/files.phtml/526008aef38e7.727606634$936476613$/Fagstoff/Lab+_prcent_28individuelt_prcent_29/Filer+for+LAB4/link_sprite_img.jpg") no-repeat scroll 0 0;
 	display:inline;
 	Font-family:'Arial', Verdana, Tahoma;
 	font-size:16pt;
 	font-weight:bold;
-	padding:10px 15px 22px;
+	padding:10px 15px 9px;
 	lineheight: 70px;
 	cursor:pointer;
 }
 .firstUL li.selected{
-	background:transparent url ("images/link_sprite_img.jpg") no-repeat scroll 0px -57px;
+	background:transparent url ("https://fronter.com/uia/links/files.phtml/526008aef38e7.727606634$936476613$/Fagstoff/Lab+_prcent_28individuelt_prcent_29/Filer+for+LAB4/link_sprite_img.jpg") no-repeat scroll 0px -57px;
 	color:#fff;
 	font-weight:bold;
-}
-adress{
-	text-align:center;
+
 }

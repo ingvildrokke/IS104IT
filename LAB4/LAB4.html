@@ -11,36 +11,41 @@
 	
 	<script>
 	$(function() {
-		//Markere lenken og rulle til det selekterte elementet i DOM
-		$(".firstUL li") .each(function(){
-			$(this).click(function()// Fange hendelsen når brykeren klikker på en av bokstavene
-			$(this).addclass("selected"); // Legg til "selected" til det elementet som brukeren klikket på
-			elementClick = $( this ).attr("id"); //Få tak i den tilsvarende 'id'for eks. a,b,c,d osv.
+		
+	//Markere lenken og rulle til det selekterte elementet i DOM
+	$( ".firstUL li" ).each(function() {
+		$( this ).click(function() {
+			$( ".firstUL li" ).removeClass( "selected" );
+			$( this ).addClass( "selected" );
+			elementClick =$( this ).attr( "id" );
 			
-			// Rulle til det selekterte DOM-elementet content for -X,X -selektert bokstav
-			$(".content-container").scrollTo($("#content-for-"+elementClick), 800);
+			// Rulle til det selekterte DOM elementet 
+			$( ".content-container" ).scrollTo($( "#content-for-"+elementClick ), 800);
 			
-			//Endre bakgrunnsfarge
-			$(".content-container div").css( {'background-color' : '#ffffff'});
-			$(".content-container #content-for-"+elementClick).css({'background-color' :'#d2e2fc'});
-			
-			//Når "Tilbake til toppen" blir klikket på må 'A' markeres og innholdet må rulles til toppen
-			$('.return-to-top ').click(function(){
-				$(".firstUL li").each(function(){
-					$(".firstUL li" ).removeClass ("selected"); //remove class
-				});
-				
-				// Legg til klasen selected til første bokstav i alfabetet
-				$("a").addClass("selected");
-				//Rulle til et element, "A"i dette tilfelle
-				$(".content-container").scrollTo($("#content-for-a"),800);
-				//Sette bakgrunnsfargen til hvit til alle div og til lyseblått for den valgte div-en (a i dette tilfellet
-					$("content-container div").css({'background-color' :'#ffffff'});
-					$(".content-container #content-for-a").css({'background-color':'#d2e2fc'});
-					
+			// Endre bakgrunnsfarge
+			$( ".content-container div" ).css( {'background-color' : '#ffffff'} );
+			$( ".content-container #content-for-"+elementClick ).css( {'background-color' : '#d2e2fc'} );
 		});
 	});
-	</script>
+	
+			// Når "tilbake til toppen" knappen blir klikkt på må 'A' markers og innholdet må rulles til toppen
+			$( '.return-to-top' ).click(function() {
+				$( ".firstUL li" ).each(function() {
+					$( ".firstUL li" ).removeClass( "selected" );
+					});
+			
+					// Legg til klassen selected til først bokstav i alfabetet
+					$( "#a" ).addClass( "selected" );
+					//rulle til et element, "A" i dette tilfelle
+					$( ".content-container" ).scrollTo($( "#content-for-a" ), 800);
+					//Setter bakgrunnsfargen til hvit til alle div og ti lyseblått for den selekterte div-en (a i dette tilfelle)
+					$( ".content-container div" ).css( {'background-color' : '#ffffff'} );
+					$( ".content-container #content-for-a" ).css( {'background-color' : '#d2e2fc'} ); 
+		});
+		
+	});
+	
+</script>
 </head>
 <body>
 	<div id="body-container">
