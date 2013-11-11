@@ -37,7 +37,7 @@
 	background-color:#3285ef;	
 }
 .firstUL li{
-	background:transparent url (images/link_sprite_img.jpg) no-repeat scroll 0 0;
+	background:transparent url (images/link_sprite_img.jpg) no-repeat scroll 0px 0px;
 	display:inline;
 	font-family:'Arial',Verdana,Tahoma;
 	font-size:16pt;
