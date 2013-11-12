@@ -1,0 +1,15 @@
+#my_canvas {
+	border: solid 3px;
+	width: 200px;
+	height:200px;
+}
+#x{
+ font-weight:bold;
+ color:00F;
+}
+
+#y{
+	font-weight: bold;
+	color: purple;
+}
+
